@@ -2,17 +2,17 @@ import java.util.Scanner;
 public class para {
 	public static void main(String[] args) {
 		
-		int num1,num2,sum;
+		int x,y,sum;
 		
 		Scanner s=new Scanner(System.in);
 		
 		System.out.println("Enter First Number: ");
-		num1=s.nextInt();
+		x=s.nextInt();
 		
 		System.out.println("Enter Second Number: ");
-		num2=s.nextInt();
+		y=s.nextInt();
 
-		sum=num1 + num2;
+		sum=x + y;
 		System.out.println("Sum of these number: "+sum);
 	}
 }	
